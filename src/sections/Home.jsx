@@ -1,6 +1,6 @@
 import React from 'react'
 import ProfilePic from '../assets/profile-pic-home.jpg'
-import resume from '../assets/ZacharyResume_01.pdf'
+import resume from '../assets/ZachResume2025.pdf'
 import { IoMdDownload } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";

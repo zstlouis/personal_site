@@ -11,6 +11,7 @@ const Projects = () => {
             image: ExpenseTracker,
             name: "Expense Tracking",
             brief: "Application allows user to tracker expenses based on various categories",
+            url: "https://github.com/zstlouis/expense_tracker",
             techstack: [
                 "React", "MongoDB", "Node.js", "Express", "Tailwind CSS"
             ]
@@ -19,6 +20,7 @@ const Projects = () => {
             image: Camera,
             name: "AI Image Generator",
             brief: "Application allows user generate an image based on an inputted description using OpenAI",
+            url: "https://github.com/zstlouis/ai_image_generator",
             techstack: [
                 "React", "Tailwind CSS"
             ]
@@ -27,6 +29,7 @@ const Projects = () => {
             image: EmployeeManagement,
             name: "Employee Management System",
             brief: "Application allows user to tracker expenses and based on various categories",
+            url: "https://github.com/zstlouis/Employee_Management",
             techstack: [
                 "Java", "Spring", "MongoDB"
             ]
@@ -35,6 +38,7 @@ const Projects = () => {
             image: Lego,
             name: "Lego Character Identifier",
             brief: "Identify various lego minifigures using TensorFlow.",
+            url: "https://github.com/zstlouis/TensorflowProjects/tree/master/Lego_Minifigures",
             techstack: [
                 "Python", "TensorFlow"
             ]
@@ -70,7 +74,7 @@ const Projects = () => {
                             </div>
                              <div className="flex flex-col items-center text-center my-5 py-3 justify-center gap-3 border-2 border-white/10 rounded-xl">
                                     <p className="text-gray-200">View Project</p>
-                                    <a href='https://www.linkedin.com/in/zach-st-louis/' className='flex justify-between items-center font-bold
+                                    <a href={project.url} className='flex justify-between items-center font-bold
                                      text-blue-400 transition-colors hover:text-white cursor-pointer '>
                                         <img src={project.image}></img>
                                     </a>
